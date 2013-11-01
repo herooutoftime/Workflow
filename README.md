@@ -1,4 +1,4 @@
-multiupload
-===========
+Workflow
+========
 
-MODx multiupload feature for MODx File tree
+MODx Workflow component
