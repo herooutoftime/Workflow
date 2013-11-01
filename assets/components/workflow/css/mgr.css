@@ -1,0 +1,26 @@
+.workflow-resource-body {
+padding: 10px 0 10px 20px;
+}
+
+
+.workflow-grid .workflow-unpublished,
+.workflow-grid .workflow-unpublished span,
+.workflow-grid .workflow-unpublished a {
+color: gray;
+}
+.x-grid3-body .x-grid3-td-checker {
+background-image: none !important;
+}
+
+.workflow-deleted, .workflow-deleted span, .workflow-deleted a,
+.workflow-grid .workflow-deleted, .workflow-grid .workflow-deleted span, .workflow-grid .workflow-deleted a {
+color: red !important;
+}
+
+.dashboard-block .body {
+	max-height: none !important;
+}
+
+.workflow-dashboard-grid .x-grid3-row .x-grid3-cell-inner {
+	padding: 12px 18px 10px 5px;
+}

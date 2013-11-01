@@ -1,0 +1,1 @@
+if(!Workflow){var Workflow=function(config){config=config||{};Workflow.superclass.constructor.call(this,config)};Ext.extend(Workflow,Ext.Component,{page:{},window:{},grid:{},tree:{},panel:{},combo:{},config:{}});Ext.reg('workflow',Workflow);var Workflow=new Workflow()}

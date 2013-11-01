@@ -1,0 +1,1 @@
+Ext.onReady(function(){MODx.load({xtype:'workflow-page-home'})});Workflow.page.Home=function(config){config=config||{};Ext.applyIf(config,{components:[{xtype:'workflow-panel-home',renderTo:'workflow-panel-home-div'}]});Workflow.page.Home.superclass.constructor.call(this,config)};Ext.extend(Workflow.page.Home,MODx.Component);Ext.reg('workflow-page-home',Workflow.page.Home)
