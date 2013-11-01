@@ -1,0 +1,4 @@
+Workflow
+========
+
+MODx Workflow component
