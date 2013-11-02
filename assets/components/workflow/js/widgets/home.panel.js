@@ -45,7 +45,7 @@ Workflow.panel.Home = function(config) {
                 return {activeTab:this.items.indexOf(this.getActiveTab())};
             }
             ,items: [{
-                title: _('resources')
+                title: _('workflow.tabs.resources')
                 ,defaults: { autoHeight: true }
                 ,items: [{
                     html: '<p>'+''+'</p>'
@@ -55,7 +55,42 @@ Workflow.panel.Home = function(config) {
                     xtype: 'workflow-grid-resource'
                     ,preventRender: true
                 }]
-            }]
+            },{
+                title: _('workflow.tabs.states')
+                ,defaults: { autoHeight: true }
+                ,items: [{
+                    html: '<p>'+''+'</p>'
+                    ,border: false
+                    ,bodyStyle: 'padding: 10px'
+                },{
+                    xtype: 'workflow-grid-status'
+                    ,preventRender: true
+                }]
+            },{
+                title: _('workflow.tabs.actions')
+                ,defaults: { autoHeight: true }
+                ,items: [{
+                    html: '<p>'+''+'</p>'
+                    ,border: false
+                    ,bodyStyle: 'padding: 10px'
+                },{
+                    xtype: 'workflow-grid-actions'
+                    ,preventRender: true
+                }]
+            }
+            // ,{
+            //     title: _('workflow.tabs.workflow')
+            //     ,defaults: { autoHeight: true }
+            //     ,items: [{
+            //         html: '<p>'+''+'</p>'
+            //         ,border: false
+            //         ,bodyStyle: 'padding: 10px'
+            //     },{
+            //         xtype: 'workflow-panel-workflow'
+            //         ,preventRender: true
+            //     }]
+            // }
+            ]
         }]
     });
     Workflow.panel.Home.superclass.constructor.call(this,config);
