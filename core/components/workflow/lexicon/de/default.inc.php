@@ -35,6 +35,8 @@
  **/
 
 $_lang['workflow.edit'] = 'Bearbeiten';
+$_lang['workflow.value'] = 'Wert';
+$_lang['workflow.display'] = 'Anzeige';
 $_lang['workflow.leave_message.title'] = 'Status &auml;ndern';
 $_lang['workflow.leave_message.msg'] = 'Nachricht an den Redakteur:';
 $_lang['workflow.window.message'] = 'Nachricht';
@@ -55,3 +57,9 @@ $_lang['workflow.dashboard.title'] = 'Workflow';
 $_lang['workflow.dashboard.description'] = '';
 $_lang['workflow.dashboard.edit'] = 'Bearbeiten';
 $_lang['workflow.dashboard.edit_resource'] = 'Artikel bearbeiten';
+
+$_lang['workflow.tabs.resources'] = 'Ressourcen';
+$_lang['workflow.tabs.states'] = 'Stati';
+$_lang['workflow.tabs.actions'] = 'Aktionen';
+
+$_lang['workflow.status.create'] = 'Erstellen';

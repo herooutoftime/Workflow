@@ -37,6 +37,7 @@ if ($object->xpdo) {
 
             $manager = $modx->getManager();
             $manager->createObjectContainer('WfActions');
+            $manager->createObjectContainer('WfStates');
 
         	// $modx->log(xPDO::LOG_LEVEL_ERROR, dirname(dirname(__FILE__)) . 'data/workflow/transport.widgets.php');
             // $widgets = include dirname(dirname(__FILE__)) . 'data/workflow/transport.widgets.php';

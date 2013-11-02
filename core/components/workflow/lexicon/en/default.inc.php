@@ -33,12 +33,14 @@
  *
  * @package workflow
  **/
-$_lang['workflow.edit'] = 'Bearbeiten';
-$_lang['workflow.leave_message.title'] = 'Status &auml;ndern';
-$_lang['workflow.leave_message.msg'] = 'Nachricht an den Redakteur:';
-$_lang['workflow.window.message'] = 'Nachricht';
-$_lang['workflow.window.sendmail'] = 'Sende E-Mail an';
-$_lang['workflow.bulkactions'] = 'Stapel-Aktionen';
+$_lang['workflow.edit'] = 'Edit';
+$_lang['workflow.value'] = 'Value';
+$_lang['workflow.display'] = 'Display';
+$_lang['workflow.leave_message.title'] = 'Change status';
+$_lang['workflow.leave_message.msg'] = 'Message to editor:';
+$_lang['workflow.window.message'] = 'Message';
+$_lang['workflow.window.sendmail'] = 'Send mail to';
+$_lang['workflow.bulkactions'] = 'Batch-Actions';
 
 $_lang['workflow.combo_states.empty'] = 'Status';
 $_lang['workflow.combo_authors.empty'] = 'Author';
@@ -52,5 +54,11 @@ $_lang['setting_workflow.exclude_desc'] = 'Exclude certain folders/containers fr
 
 $_lang['workflow.dashboard.title'] = 'Workflow';
 $_lang['workflow.dashboard.description'] = '';
-$_lang['workflow.dashboard.edit'] = 'Bearbeiten';
-$_lang['workflow.dashboard.edit_resource'] = 'Artikel bearbeiten';
+$_lang['workflow.dashboard.edit'] = 'Edit';
+$_lang['workflow.dashboard.edit_resource'] = 'Edit resource';
+
+$_lang['workflow.tabs.resources'] = 'Resources';
+$_lang['workflow.tabs.states'] = 'States';
+$_lang['workflow.tabs.actions'] = 'Actions';
+
+$_lang['workflow.status.create'] = 'Create status';

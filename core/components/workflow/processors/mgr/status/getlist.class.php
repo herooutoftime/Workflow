@@ -1,6 +1,6 @@
 <?php
 /**
- * Controller file for Workflow extra
+ * Processor file for Workflow extra
  *
  * Copyright 2013 by Andreas Bilz Andreas Bilz <andreas@subsolutions.at>
  * Created on 09-30-2013
@@ -19,18 +19,15 @@
  * Place, Suite 330, Boston, MA 02111-1307 USA
  *
  * @package workflow
- * @subpackage controllers
+ * @subpackage processors
  */
+
 /* @var $modx modX */
 
-$modx->regClientStartupScript($workflow->config['jsUrl'].'widgets/home.panel.js');
-$modx->regClientStartupScript($workflow->config['jsUrl'].'sections/home.js');
-$modx->regClientStartupScript($workflow->config['jsUrl'].'widgets/resource.grid.js');
-$modx->regClientStartupScript($workflow->config['jsUrl'].'widgets/status.grid.js');
-$modx->regClientStartupScript($workflow->config['jsUrl'].'widgets/action.grid.js');
-// $modx->regClientStartupScript($workflow->config['jsUrl'] . 'widgets/chunk.grid.js');
-// $modx->regClientStartupScript($workflow->config['jsUrl'] . 'widgets/snippet.grid.js');
-
-$output = '<div id="workflow-panel-home-div"></div>';
-
-return $output;
+class WorkflowStatusGetlistProcessor extends modObjectGetListProcessor {
+    public $classKey = 'WfStates';
+    public $languageTopics = array('workflow:default');
+    public $defaultSortField = 'id';
+    public $defaultSortDirection = 'ASC';
+}
+return 'WorkflowStatusGetlistProcessor';
